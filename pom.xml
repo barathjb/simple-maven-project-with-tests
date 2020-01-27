@@ -11,19 +11,14 @@
             <url>http://opensource.org/licenses/MIT</url>
         </license>
     </licenses>
-    <build>
-        <plugins>
-            <plugin>
-               
+   
+    <dependencies>
+        <dependency>
   <groupId>org.apache.maven.plugins</groupId>
   <artifactId>maven-surefire-plugin</artifactId>
   <version>3.0.0-M4</version>
   <type>maven-plugin</type>
-
-            </plugin>
-        </plugins>
-    </build>
-    <dependencies>
+</dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
